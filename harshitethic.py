@@ -33,8 +33,8 @@ running = False
 cache = None
 qcache = None
 chat_log = None
-botname = 'Harshit ethic'
-username = 'harshitethic_bot'
+botname = 'chatgpt'
+username = 'botdenemebebekbot'
 # Max chat log length (A token is about 4 letters and max tokens is 2048)
 max = int(3000)
 
@@ -91,16 +91,16 @@ def reset(bot, update):
         chat_log = None
         cache = None
         qcache = None
-        botname = 'Harshit Ethic'
-        username = 'harshitethic_bot'
+        botname = 'chatgpt'
+        username = 'botdenemebebekbot'
         update.message.reply_text('Bot has been reset, send a message!')
         return
     if tim == 1:
         chat_log = None
         cache = None
         qcache = None
-        botname = 'Harshit Ethic'
-        username = 'harshitethic_bot'
+        botname = 'chatgpt'
+        username = 'botdenemebebekbot'
         update.message.reply_text('Bot has been reset, send a message!')
         return 
     else:
@@ -126,8 +126,8 @@ def retry(bot, update):
         chat_log = None
         cache = None
         qcache = None
-        botname = 'Harshit Ethic'
-        username = 'harshitethic_bot'
+        botname = 'chatgpt'
+        username = 'botdenemebebekbot'
         update.message.reply_text('Send a message!')
         return 
     else:
@@ -187,8 +187,8 @@ def wait(bot, update, botname, username, new):
                 cache = None
                 qcache = None
                 user = ""
-                username = 'harshitethic_bot'
-                botname = 'Harshit Ethic'
+                username = 'chatgpt'
+                botname = 'botdenemebebekbot'
                 update.message.reply_text('Timer has run down, bot has been reset to defaults.')
                 running = False
     else:
