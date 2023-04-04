@@ -1,1 +1,1 @@
-worker: python3 -m harshitethic.py
+worker: python3  harshitethic.py
